@@ -1,0 +1,5 @@
+<config>
+	<interface hosts="*" address="10.x.x.x" netmask="255.x.x.x"/>
+	<multicast-group hosts="*" interfaces="wlan*" address="225.0.0.1"/>
+	<multicast-route hosts="*" groups="225.0.0.1" parent="wlan0" children="wlan0"/>
+</config>

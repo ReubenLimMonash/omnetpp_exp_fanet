@@ -1,0 +1,10 @@
+.settings
+out
+.nedexclusions
+.oppbuildspec
+.oppfeaturestate
+.project
+.nedfolders
+simulations/.cmdenv-log
+simulations/.qtenvrc
+simulations/results
